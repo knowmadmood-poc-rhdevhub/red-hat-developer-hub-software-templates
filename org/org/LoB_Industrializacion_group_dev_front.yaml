@@ -6,7 +6,7 @@ metadata:
 spec:
   type: team
   profile:
-    displayName: Desarrolladores LoB
+    displayName: Desarrolladores LoB Frontales
     email: grupo_desarroladores@nomescribas.com
     picture: https://api.dicebear.com/7.x/identicon/svg?seed=Fluffy&backgroundType=solid,gradientLinear&backgroundColor=ffd5dc,b6e3f4
     parent: departamento_desarrollo_software
