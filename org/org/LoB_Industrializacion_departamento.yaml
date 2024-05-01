@@ -5,6 +5,6 @@ metadata:
   description: Departamento de desarrollo software
 spec:
   type: department
-  displayName: departamento desarrollo
+  displayName: departamento desarrollo de software FRONT & BACKEND
   parent: LoB-Industrializacion-corp
   children: [equipo_desarrolladores_front, equipo_desarrolladores_backend]
