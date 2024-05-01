@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: LoB-Industrializacion-corp
-  description: The LoB Industrializacion organizacion
+  description: Organización LoB Industrializacion-corp
   links:
     - url: http://www.acme.com/
       title: Website
@@ -12,8 +12,19 @@ spec:
   type: organization
   profile:
     displayName: LoB Industrializacion Corp
-    email: LoB-Industrializacion-corp@nomescribas.com
+    email: lob-industrializacion-corp@nomescribas.com
     picture: https://api.dicebear.com/7.x/identicon/svg?seed=Maggie&flip=true&backgroundColor=ffdfbf
   children: [departamento_desarrollo_software]
-
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: LoB-Industrializacion-corp-estructura
+  description: Estructura Organización LoB Industrialización, incluye Departamentos, Grupos y Usuarios
+spec:
+  targets:
+    - ./org/LoB_Industrializacion_departamento.yaml
+    - ./org/LoB_Industrializacion_group_dev_front.yaml
+    - ./org/LoB_Industrializacion_group_dev_back.yaml
+    - ./org/LoB_Industrializacion_users.yaml
 
