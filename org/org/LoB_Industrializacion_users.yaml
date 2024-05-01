@@ -8,3 +8,14 @@ spec:
     email: ichaso-rhdh-developer@nomescribas.com
     picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
   memberOf: [equipo_desarrolladores_front, equipo_desarrolladores_backend]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ichaso-knowmadmood
+spec:
+  profile:
+    displayName: Ingeniero Plataforma ichaso-knowmadmood
+    email: ichaso-knowmadmood@nomescribas.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
+  memberOf: [equipo_platform_engineering]
