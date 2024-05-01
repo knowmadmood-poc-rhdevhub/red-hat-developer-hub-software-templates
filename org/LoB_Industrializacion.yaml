@@ -15,15 +15,4 @@ spec:
     email: LoB-Industrializacion-corp@nomescribas.com
     picture: https://api.dicebear.com/7.x/identicon/svg?seed=Maggie&flip=true&backgroundColor=ffdfbf
   children: [departamento_desarrollo_software]
----
-apiVersion: backstage.io/v1alpha1
-kind: Location
-metadata:
-  name: departamento_desarrolladores_def
-  description: Estructura Grupo Desarrolladores LoB-Industrializacion-corp
-spec:
-  targets:
-    - ./org/LoB_Industrializacion_departamento.yaml
-    - ./org/LoB_Industrializacion_group_dev_front.yaml
-    - ./org/LoB_Industrializacion_group_dev_back.yaml
-    - ./org/LoB_Industrializacion_users.yaml
+
