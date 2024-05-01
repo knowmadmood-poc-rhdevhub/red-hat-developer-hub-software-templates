@@ -23,4 +23,4 @@ metadata:
   description: A collection of all Backstage example Groups
 spec:
   targets:
-    - ./LoB_Industrializacion-group.yaml
+    - ./org/LoB_Industrializacion_group_and_users.yaml
