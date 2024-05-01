@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: equipo_platform_engineering
+  description: Equipo Plataforma Ingeniería LoB Industrializacion
+spec:
+  type: team
+  profile:
+    displayName: Platform Engineering team LoB Industrialization
+    email: grupo_ingenieriaplataforma@nomescribas.com
+    picture: https://api.dicebear.com/7.x/identicon/svg?seed=Fluffy&backgroundType=solid,gradientLinear&backgroundColor=ffd5dc,b6e3f4
+    parent: departamento_platform_engineering
+  children: []
