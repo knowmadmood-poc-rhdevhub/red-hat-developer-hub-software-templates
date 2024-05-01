@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: departamento_desarrollo_software
-  description: Departamento de desarrollo software
+  description: Departamento de desarrollo software de LoB-Industrializacion-corp
 spec:
   type: department
   displayName: departamento desarrollo de software FRONT & BACKEND
