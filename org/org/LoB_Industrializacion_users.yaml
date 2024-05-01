@@ -7,4 +7,4 @@ spec:
     displayName: desarrollador ichaso-rhdh-developer
     email: ichaso-rhdh-developer@nomescribas.com
     picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
-  memberOf: [equipo_desarrolladores]
+  memberOf: [equipo_desarrolladores_front, equipo_desarrolladores_backend]
