@@ -7,4 +7,4 @@ spec:
   type: department
   displayName: departamento desarrollo
   parent: LoB-Industrializacion-corp
-  children: [desarrolladores]
+  children: [equipo_desarrolladores]
