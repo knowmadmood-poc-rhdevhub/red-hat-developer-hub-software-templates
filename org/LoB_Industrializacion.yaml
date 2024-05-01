@@ -14,7 +14,7 @@ spec:
     displayName: LoB Industrializacion Corp
     email: LoB-Industrializacion-corp@nomescribas.com
     picture: https://api.dicebear.com/7.x/identicon/svg?seed=Maggie&flip=true&backgroundColor=ffdfbf
-  children: [departamento_desarrolladores]
+  children: [departamento_desarrollo_software]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
