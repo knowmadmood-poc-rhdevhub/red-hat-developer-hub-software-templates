@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: LoB-Industrializacion-corp
+  description: A collection of all LoB Industrialización Groups
+spec:
+  targets:
+    - LoB_Industrializacion.yaml
