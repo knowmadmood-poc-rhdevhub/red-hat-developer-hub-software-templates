@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: desarrolladores
+  description: Equipo desarrolladores LoB Industrializacion
+spec:
+  type: team
+  profile:
+    displayName: Desarrolladores LoB
+    email: grupo_desarroladores@nomescribas.com
+    picture: https://api.dicebear.com/7.x/identicon/svg?seed=Fluffy&backgroundType=solid,gradientLinear&backgroundColor=ffd5dc,b6e3f4
+  # parent: backstage
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: breanna.davison
+spec:
+  profile:
+    displayName: desarrollador ichaso-rhdh-developer
+    email: ichaso-rhdh-developer@nomescribas.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
+  memberOf: [desarrolladores]
