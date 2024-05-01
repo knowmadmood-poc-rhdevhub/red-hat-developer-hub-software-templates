@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ichaso-rhdh-developer
+spec:
+  profile:
+    displayName: desarrollador ichaso-rhdh-developer
+    email: ichaso-rhdh-developer@nomescribas.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
+  memberOf: [desarrolladores]
