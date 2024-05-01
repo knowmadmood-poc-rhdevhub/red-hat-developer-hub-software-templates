@@ -20,7 +20,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: grupo_desarroladores
-  description: Grupo Desarrolladores LoB-Industrializacion-corp
+  description: Estructura Grupo Desarrolladores LoB-Industrializacion-corp
 spec:
   targets:
-    - ./org/LoB_Industrializacion_group_and_users.yaml
+    - ./org/LoB_Industrializacion_departamento.yaml
