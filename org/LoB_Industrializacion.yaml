@@ -26,5 +26,6 @@ spec:
     - ./org/LoB_Industrializacion_departamento.yaml
     - ./org/LoB_Industrializacion_group_dev_front.yaml
     - ./org/LoB_Industrializacion_group_dev_back.yaml
+    - ./org/LoB_Industrializacion_group_platf_engnr.yaml
     - ./org/LoB_Industrializacion_users.yaml
 
