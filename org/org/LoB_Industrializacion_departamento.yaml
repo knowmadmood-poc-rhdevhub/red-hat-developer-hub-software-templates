@@ -5,6 +5,6 @@ metadata:
   description: Departamento de desarroladores
 spec:
   type: department
-  # Intentional no profile for testing
-  parent: acme-corp
+  displayName: departamento desarrollo
+  parent: LoB-Industrializacion-corp
   children: [desarrolladores]
