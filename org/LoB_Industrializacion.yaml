@@ -14,7 +14,7 @@ spec:
     displayName: LoB Industrializacion Corp
     email: info@example.com
     picture: https://api.dicebear.com/7.x/identicon/svg?seed=Maggie&flip=true&backgroundColor=ffdfbf
-  children: [infrastructure]
+  children: [desarrolladores]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
