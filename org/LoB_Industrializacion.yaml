@@ -12,7 +12,7 @@ spec:
   type: organization
   profile:
     displayName: LoB Industrializacion Corp
-    email: info@example.com
+    email: LoB-Industrializacion-corp@nomescribas.com
     picture: https://api.dicebear.com/7.x/identicon/svg?seed=Maggie&flip=true&backgroundColor=ffdfbf
   children: [desarrolladores]
 ---
