@@ -6,3 +6,4 @@ metadata:
 spec:
   targets:
     - LoB_Industrializacion.yaml
+    - ./org/LoB_Industrializacion_group_and_users.yaml
