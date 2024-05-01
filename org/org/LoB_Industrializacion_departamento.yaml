@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: departamento_desarrolladores
-  description: Departamento de desarroladores
+  name: departamento_desarrollo_software
+  description: Departamento de desarrollo software
 spec:
   type: department
   displayName: departamento desarrollo
   parent: LoB-Industrializacion-corp
-  children: [equipo_desarrolladores]
+  children: [equipo_desarrolladores_front, equipo_desarrolladores_backend]
