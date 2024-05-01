@@ -9,7 +9,7 @@ spec:
     displayName: Desarrolladores LoB
     email: grupo_desarroladores@nomescribas.com
     picture: https://api.dicebear.com/7.x/identicon/svg?seed=Fluffy&backgroundType=solid,gradientLinear&backgroundColor=ffd5dc,b6e3f4
-  # parent: backstage
+    parent: LoB-Industrializacion-corp
   children: []
 ---
 apiVersion: backstage.io/v1alpha1
