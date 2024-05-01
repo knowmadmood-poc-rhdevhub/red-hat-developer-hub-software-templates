@@ -24,3 +24,4 @@ metadata:
 spec:
   targets:
     - ./org/LoB_Industrializacion_departamento.yaml
+    - ./org/LoB_Industrializacion_group_and_users.yaml
