@@ -4,7 +4,7 @@ metadata:
   name: ichaso-rhdh-developer
 spec:
   profile:
-    displayName: desarrollador ichaso-rhdh-developer
+    displayName: Desarrollador ichaso-rhdh-developer
     email: ichaso-rhdh-developer@nomescribas.com
     picture: https://cdn.iconscout.com/icon/premium/png-256-thumb/web-developer-4830946-4041863.png
   memberOf: [equipo_desarrolladores_front, equipo_desarrolladores_backend]
