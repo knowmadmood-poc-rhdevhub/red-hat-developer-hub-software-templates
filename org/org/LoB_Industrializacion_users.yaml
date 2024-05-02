@@ -6,7 +6,7 @@ spec:
   profile:
     displayName: desarrollador ichaso-rhdh-developer
     email: ichaso-rhdh-developer@nomescribas.com
-    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
+    picture: https://cdn.iconscout.com/icon/premium/png-256-thumb/web-developer-4830946-4041863.png
   memberOf: [equipo_desarrolladores_front, equipo_desarrolladores_backend]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -17,5 +17,5 @@ spec:
   profile:
     displayName: Ingeniero Plataforma ichaso-knowmadmood
     email: ichaso-knowmadmood@nomescribas.com
-    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
+    picture: https://cdn.iconscout.com/icon/premium/png-256-thumb/web-developer-16-957564.png
   memberOf: [equipo_platform_engineering]
