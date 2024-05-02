@@ -18,4 +18,4 @@ spec:
 #    - templates/github/register-component/template.yaml
 #    - templates/github/tekton/template.yaml
 #    - templates/github/techdocs/template.yaml
-    - org/LoB_Industrializacion.yaml
+#    - org/LoB_Industrializacion.yaml
