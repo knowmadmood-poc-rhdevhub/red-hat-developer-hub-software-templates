@@ -99,7 +99,7 @@ spec:
         description: Contains the techdocs for ${{ parameters.repoName }}
         repoUrl: github.com?owner=${{ parameters.orgName }}&repo=${{ parameters.repoName }}-techdocs
         defaultBranch: main
-        token: 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
+        token: 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
 
     - id: register
       name: Registering the Catalog Info Component
