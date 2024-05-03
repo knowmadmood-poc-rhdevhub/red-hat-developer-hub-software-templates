@@ -20,7 +20,7 @@ spec:
         - componentName
       properties:
         orgName:
-          title: Organization Name
+          title: Organization Name :)
           type: string
         repoName:
           title: Repository Name
