@@ -83,7 +83,6 @@ spec:
         values:
           # Gitops specific values
           partOf: ${{ parameters.componentName }}
-
           orgName: ${{ parameters.orgName }}
           repoName: ${{ parameters.repoName }}-techdocs
           owner: ${{ parameters.owner }}
