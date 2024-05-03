@@ -97,9 +97,9 @@ spec:
       input:
         allowedHosts: ['github.com']
         description: Contains the techdocs for ${{ parameters.repoName }}
-        repoUrl: github.com?owner=${{ parameters.orgName }}&repo=${{ parameters.repoName }}-techdocs&token=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
+        repoUrl: github.com?owner=${{ parameters.orgName }}&repo=${{ parameters.repoName }}-techdocs
         defaultBranch: main
-        token: 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
+        token: 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
 
     - id: register
       name: Registering the Catalog Info Component
