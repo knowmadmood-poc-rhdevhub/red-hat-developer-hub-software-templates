@@ -38,6 +38,7 @@ spec:
       required:
         - owner
         - system
+        - token
       properties:
         owner:
           title: Owner
@@ -56,6 +57,9 @@ spec:
             catalogFilter:
               kind:
                 - System
+        token:
+          title: token...
+          type: string
 
   steps:
     - id: sourceCodeTemplate
@@ -73,8 +77,7 @@ spec:
           applicationType: documentation
           description: Contains the techdocs for ${{ parameters.repoName }}
           sourceControl: github.com
-          token: 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
-
+          
     - id: catalogTemplate
       name: Generating the Catalog Info Component
       action: fetch:template
@@ -90,8 +93,7 @@ spec:
           applicationType: documentation
           description: Contains the techdocs for ${{ parameters.repoName }}
           sourceControl: github.com
-          token: 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
-
+          
     - id: publish
       name: Publishing to the Source Code Repository
       action: publish:github
@@ -100,7 +102,7 @@ spec:
         description: Contains the techdocs for ${{ parameters.repoName }}
         repoUrl: github.com?owner=${{ parameters.orgName }}&repo=${{ parameters.repoName }}-techdocs
         defaultBranch: main
-        token: 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
+        token: ${{ parameters.token }}
         
     - id: register
       name: Registering the Catalog Info Component
