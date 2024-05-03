@@ -73,6 +73,7 @@ spec:
           applicationType: documentation
           description: Contains the techdocs for ${{ parameters.repoName }}
           sourceControl: github.com
+          token: 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
 
     - id: catalogTemplate
       name: Generating the Catalog Info Component
