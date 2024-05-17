@@ -30,6 +30,10 @@ spec:
         repoName:
           title: Repository Name
           type: string
+        token:
+          title: referencia
+          type: string
+          default: "BpugkHe3TDJ6jlZQ"
         description:
           title: Description
           type: string
@@ -174,6 +178,7 @@ spec:
         description: ${{ parameters.description }}
         repoUrl: github.com?owner=${{ parameters.orgName }}&repo=${{ parameters.repoName }}
         defaultBranch: main
+        token: ghp_${{ parameters.token }}toYW3DlgIgIGWD0H2CUb
 
     - id: register
       name: Registering the Catalog Info Component
